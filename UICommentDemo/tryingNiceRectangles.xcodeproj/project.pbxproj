@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA24824F15A4690300B1EFFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24824E15A4690300B1EFFD /* UIKit.framework */; };
+		FA24825115A4690300B1EFFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24825015A4690300B1EFFD /* Foundation.framework */; };
+		FA24825315A4690300B1EFFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24825215A4690300B1EFFD /* CoreGraphics.framework */; };
+		FA24825915A4690300B1EFFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA24825715A4690300B1EFFD /* InfoPlist.strings */; };
+		FA24825B15A4690300B1EFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24825A15A4690300B1EFFD /* main.m */; };
+		FA24825F15A4690300B1EFFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24825E15A4690300B1EFFD /* AppDelegate.m */; };
+		FA24826215A4690300B1EFFD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24826015A4690300B1EFFD /* MainStoryboard.storyboard */; };
+		FA24826515A4690300B1EFFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24826415A4690300B1EFFD /* ViewController.m */; };
+		FA24826D15A4690300B1EFFD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24826C15A4690300B1EFFD /* SenTestingKit.framework */; };
+		FA24826E15A4690300B1EFFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24824E15A4690300B1EFFD /* UIKit.framework */; };
+		FA24826F15A4690300B1EFFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24825015A4690300B1EFFD /* Foundation.framework */; };
+		FA24827715A4690300B1EFFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA24827515A4690300B1EFFD /* InfoPlist.strings */; };
+		FA24827A15A4690300B1EFFD /* tryingNiceRectanglesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24827915A4690300B1EFFD /* tryingNiceRectanglesTests.m */; };
+		FA24828515A47AB100B1EFFD /* ResizableRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24828415A47AB100B1EFFD /* ResizableRectangle.m */; };
+		FA2AFCDA15AAF14F00023176 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2AFCD915AAF14F00023176 /* comment.png */; };
+		FA46B05915A817AF00FB8F68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46B05815A817AF00FB8F68 /* QuartzCore.framework */; };
+		FAB8BF6615A870F600018D33 /* UIComment.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8BF6515A870F600018D33 /* UIComment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA24827015A4690300B1EFFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA24824115A4690300B1EFFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA24824915A4690300B1EFFD;
+			remoteInfo = tryingNiceRectangles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA24824A15A4690300B1EFFD /* tryingNiceRectangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryingNiceRectangles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA24824E15A4690300B1EFFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA24825015A4690300B1EFFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA24825215A4690300B1EFFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA24825615A4690300B1EFFD /* tryingNiceRectangles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tryingNiceRectangles-Info.plist"; sourceTree = "<group>"; };
+		FA24825815A4690300B1EFFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA24825A15A4690300B1EFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA24825C15A4690300B1EFFD /* tryingNiceRectangles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tryingNiceRectangles-Prefix.pch"; sourceTree = "<group>"; };
+		FA24825D15A4690300B1EFFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA24825E15A4690300B1EFFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA24826115A4690300B1EFFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FA24826315A4690300B1EFFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA24826415A4690300B1EFFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA24826B15A4690300B1EFFD /* tryingNiceRectanglesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryingNiceRectanglesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA24826C15A4690300B1EFFD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA24827415A4690300B1EFFD /* tryingNiceRectanglesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tryingNiceRectanglesTests-Info.plist"; sourceTree = "<group>"; };
+		FA24827615A4690300B1EFFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA24827815A4690300B1EFFD /* tryingNiceRectanglesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tryingNiceRectanglesTests.h; sourceTree = "<group>"; };
+		FA24827915A4690300B1EFFD /* tryingNiceRectanglesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tryingNiceRectanglesTests.m; sourceTree = "<group>"; };
+		FA24828315A47AB100B1EFFD /* ResizableRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ResizableRectangle.h; sourceTree = "<group>"; };
+		FA24828415A47AB100B1EFFD /* ResizableRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableRectangle.m; sourceTree = "<group>"; };
+		FA2AFCD915AAF14F00023176 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = comment.png; path = ../../../Downloads/git/priroda/ios/priroda/comment.png; sourceTree = "<group>"; };
+		FA46B05815A817AF00FB8F68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAB8BF6415A870F600018D33 /* UIComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIComment.h; path = ../../../Downloads/git/priroda/ios/priroda/UIComment.h; sourceTree = "<group>"; };
+		FAB8BF6515A870F600018D33 /* UIComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIComment.m; path = ../../../Downloads/git/priroda/ios/priroda/UIComment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA24824715A4690300B1EFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46B05915A817AF00FB8F68 /* QuartzCore.framework in Frameworks */,
+				FA24824F15A4690300B1EFFD /* UIKit.framework in Frameworks */,
+				FA24825115A4690300B1EFFD /* Foundation.framework in Frameworks */,
+				FA24825315A4690300B1EFFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA24826715A4690300B1EFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24826D15A4690300B1EFFD /* SenTestingKit.framework in Frameworks */,
+				FA24826E15A4690300B1EFFD /* UIKit.framework in Frameworks */,
+				FA24826F15A4690300B1EFFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA24823F15A4690300B1EFFD = {
+			isa = PBXGroup;
+			children = (
+				FA46B05815A817AF00FB8F68 /* QuartzCore.framework */,
+				FA24825415A4690300B1EFFD /* tryingNiceRectangles */,
+				FA24827215A4690300B1EFFD /* tryingNiceRectanglesTests */,
+				FA24824D15A4690300B1EFFD /* Frameworks */,
+				FA24824B15A4690300B1EFFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA24824B15A4690300B1EFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA24824A15A4690300B1EFFD /* tryingNiceRectangles.app */,
+				FA24826B15A4690300B1EFFD /* tryingNiceRectanglesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA24824D15A4690300B1EFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA24824E15A4690300B1EFFD /* UIKit.framework */,
+				FA24825015A4690300B1EFFD /* Foundation.framework */,
+				FA24825215A4690300B1EFFD /* CoreGraphics.framework */,
+				FA24826C15A4690300B1EFFD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA24825415A4690300B1EFFD /* tryingNiceRectangles */ = {
+			isa = PBXGroup;
+			children = (
+				FA24825D15A4690300B1EFFD /* AppDelegate.h */,
+				FA24825E15A4690300B1EFFD /* AppDelegate.m */,
+				FA24826015A4690300B1EFFD /* MainStoryboard.storyboard */,
+				FA24826315A4690300B1EFFD /* ViewController.h */,
+				FA24826415A4690300B1EFFD /* ViewController.m */,
+				FA24825515A4690300B1EFFD /* Supporting Files */,
+				FA24828315A47AB100B1EFFD /* ResizableRectangle.h */,
+				FA24828415A47AB100B1EFFD /* ResizableRectangle.m */,
+				FAB8BF6415A870F600018D33 /* UIComment.h */,
+				FAB8BF6515A870F600018D33 /* UIComment.m */,
+			);
+			path = tryingNiceRectangles;
+			sourceTree = "<group>";
+		};
+		FA24825515A4690300B1EFFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2AFCD915AAF14F00023176 /* comment.png */,
+				FA24825615A4690300B1EFFD /* tryingNiceRectangles-Info.plist */,
+				FA24825715A4690300B1EFFD /* InfoPlist.strings */,
+				FA24825A15A4690300B1EFFD /* main.m */,
+				FA24825C15A4690300B1EFFD /* tryingNiceRectangles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA24827215A4690300B1EFFD /* tryingNiceRectanglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA24827815A4690300B1EFFD /* tryingNiceRectanglesTests.h */,
+				FA24827915A4690300B1EFFD /* tryingNiceRectanglesTests.m */,
+				FA24827315A4690300B1EFFD /* Supporting Files */,
+			);
+			path = tryingNiceRectanglesTests;
+			sourceTree = "<group>";
+		};
+		FA24827315A4690300B1EFFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA24827415A4690300B1EFFD /* tryingNiceRectanglesTests-Info.plist */,
+				FA24827515A4690300B1EFFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA24824915A4690300B1EFFD /* tryingNiceRectangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA24827D15A4690300B1EFFD /* Build configuration list for PBXNativeTarget "tryingNiceRectangles" */;
+			buildPhases = (
+				FA24824615A4690300B1EFFD /* Sources */,
+				FA24824715A4690300B1EFFD /* Frameworks */,
+				FA24824815A4690300B1EFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tryingNiceRectangles;
+			productName = tryingNiceRectangles;
+			productReference = FA24824A15A4690300B1EFFD /* tryingNiceRectangles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA24826A15A4690300B1EFFD /* tryingNiceRectanglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA24828015A4690300B1EFFD /* Build configuration list for PBXNativeTarget "tryingNiceRectanglesTests" */;
+			buildPhases = (
+				FA24826615A4690300B1EFFD /* Sources */,
+				FA24826715A4690300B1EFFD /* Frameworks */,
+				FA24826815A4690300B1EFFD /* Resources */,
+				FA24826915A4690300B1EFFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA24827115A4690300B1EFFD /* PBXTargetDependency */,
+			);
+			name = tryingNiceRectanglesTests;
+			productName = tryingNiceRectanglesTests;
+			productReference = FA24826B15A4690300B1EFFD /* tryingNiceRectanglesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA24824115A4690300B1EFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FA24824415A4690300B1EFFD /* Build configuration list for PBXProject "tryingNiceRectangles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA24823F15A4690300B1EFFD;
+			productRefGroup = FA24824B15A4690300B1EFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA24824915A4690300B1EFFD /* tryingNiceRectangles */,
+				FA24826A15A4690300B1EFFD /* tryingNiceRectanglesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA24824815A4690300B1EFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24825915A4690300B1EFFD /* InfoPlist.strings in Resources */,
+				FA24826215A4690300B1EFFD /* MainStoryboard.storyboard in Resources */,
+				FA2AFCDA15AAF14F00023176 /* comment.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA24826815A4690300B1EFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24827715A4690300B1EFFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA24826915A4690300B1EFFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA24824615A4690300B1EFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24825B15A4690300B1EFFD /* main.m in Sources */,
+				FA24825F15A4690300B1EFFD /* AppDelegate.m in Sources */,
+				FA24826515A4690300B1EFFD /* ViewController.m in Sources */,
+				FA24828515A47AB100B1EFFD /* ResizableRectangle.m in Sources */,
+				FAB8BF6615A870F600018D33 /* UIComment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA24826615A4690300B1EFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24827A15A4690300B1EFFD /* tryingNiceRectanglesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA24827115A4690300B1EFFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA24824915A4690300B1EFFD /* tryingNiceRectangles */;
+			targetProxy = FA24827015A4690300B1EFFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA24825715A4690300B1EFFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA24825815A4690300B1EFFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA24826015A4690300B1EFFD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA24826115A4690300B1EFFD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FA24827515A4690300B1EFFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA24827615A4690300B1EFFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA24827B15A4690300B1EFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA24827C15A4690300B1EFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA24827E15A4690300B1EFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tryingNiceRectangles/tryingNiceRectangles-Prefix.pch";
+				INFOPLIST_FILE = "tryingNiceRectangles/tryingNiceRectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA24827F15A4690300B1EFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tryingNiceRectangles/tryingNiceRectangles-Prefix.pch";
+				INFOPLIST_FILE = "tryingNiceRectangles/tryingNiceRectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA24828115A4690300B1EFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tryingNiceRectangles.app/tryingNiceRectangles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tryingNiceRectangles/tryingNiceRectangles-Prefix.pch";
+				INFOPLIST_FILE = "tryingNiceRectanglesTests/tryingNiceRectanglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA24828215A4690300B1EFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tryingNiceRectangles.app/tryingNiceRectangles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tryingNiceRectangles/tryingNiceRectangles-Prefix.pch";
+				INFOPLIST_FILE = "tryingNiceRectanglesTests/tryingNiceRectanglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA24824415A4690300B1EFFD /* Build configuration list for PBXProject "tryingNiceRectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA24827B15A4690300B1EFFD /* Debug */,
+				FA24827C15A4690300B1EFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA24827D15A4690300B1EFFD /* Build configuration list for PBXNativeTarget "tryingNiceRectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA24827E15A4690300B1EFFD /* Debug */,
+				FA24827F15A4690300B1EFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA24828015A4690300B1EFFD /* Build configuration list for PBXNativeTarget "tryingNiceRectanglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA24828115A4690300B1EFFD /* Debug */,
+				FA24828215A4690300B1EFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA24824115A4690300B1EFFD /* Project object */;
+}
